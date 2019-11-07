@@ -12,5 +12,6 @@ module.exports = () => ({
     '@babel/plugin-proposal-export-namespace-from',
     '@babel/plugin-proposal-throw-expressions',
     '@babel/plugin-syntax-dynamic-import',
-  ],
+    'mobx-deep-action'
+  ].filter(Boolean),
 });
