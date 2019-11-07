@@ -1,6 +1,6 @@
 {
   "name": "babel-preset-brunono",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "description": "Shareable babel preset for Me",
   "main": "index.js",
   "scripts": {
