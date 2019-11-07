@@ -6,7 +6,6 @@ module.exports = () => ({
   ],
   plugins: [
     '@babel/plugin-proposal-export-default-from',
-    ['@babel/plugin-proposal-optional-chaining', { loose: false }],
     ['@babel/plugin-proposal-nullish-coalescing-operator', { loose: false }],
 
     // Stage-2
