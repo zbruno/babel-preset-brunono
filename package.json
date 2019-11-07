@@ -1,25 +1,25 @@
 {
-  "name": "babel-config-brunono",
+  "name": "babel-preset-brunono",
   "version": "1.0.0",
-  "description": "Shareable babel config for Me",
+  "description": "Shareable babel preset for Me",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zbruno/babel-config-brunono.git"
+    "url": "git+https://github.com/zbruno/babel-preset-brunono.git"
   },
   "keywords": [
     "babel",
-    "babelconfig"
+    "babelpreset"
   ],
   "author": "Zach Bruno <zachcbruno@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/zbruno/babel-config-brunono/issues"
+    "url": "https://github.com/zbruno/babel-preset-brunono/issues"
   },
-  "homepage": "https://github.com/zbruno/babel-config-brunono",
+  "homepage": "https://github.com/zbruno/babel-preset-brunono",
   "peerDependencies": {
     "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/plugin-proposal-decorators": "^7.7.0",
