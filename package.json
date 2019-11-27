@@ -3,9 +3,6 @@
   "version": "1.0.9",
   "description": "Shareable babel preset for Me",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/zbruno/babel-preset-brunono.git"
@@ -21,6 +18,8 @@
   },
   "homepage": "https://github.com/zbruno/babel-preset-brunono",
   "dependencies": {
+    "@babel/core": "^7.7.2",
+    "@babel/runtime": "^7.7.2",
     "@babel/plugin-proposal-class-properties": "^7.7.0",
     "@babel/plugin-proposal-decorators": "^7.7.0",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
@@ -31,18 +30,34 @@
     "@babel/plugin-syntax-dynamic-import": "^7.2.0",
     "@babel/plugin-syntax-import-meta": "^7.2.0",
     "@babel/plugin-transform-react-constant-elements": "^7.6.3",
-    "@babel/polyfill": "^7.7.0",
     "@babel/preset-env": "^7.7.1",
     "@babel/preset-react": "^7.7.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-mobx": "^2.0.0",
     "babel-plugin-mobx-deep-action": "^1.6.1"
   },
   "peerDependencies": {
     "@babel/core": "^7.7.2",
-    "@babel/runtime": "^7.7.2"
+    "@babel/runtime": "^7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.7.0",
+    "@babel/plugin-proposal-decorators": "^7.7.0",
+    "@babel/plugin-proposal-export-default-from": "^7.5.2",
+    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
+    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
+    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
+    "@babel/plugin-syntax-import-meta": "^7.2.0",
+    "@babel/plugin-transform-react-constant-elements": "^7.6.3",
+    "@babel/preset-env": "^7.7.1",
+    "@babel/preset-react": "^7.7.0",
+    "babel-eslint": "^10.0.3",
+    "babel-loader": "^8.0.6",
+    "babel-preset-mobx": "^2.0.0",
+    "babel-plugin-mobx-deep-action": "^1.6.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/runtime": "^7.7.2",
     "eslint": "^6.6.0",
     "eslint-config-airbnb": "^18.0.1",
     "eslint-config-brunono": "^1.0.7",

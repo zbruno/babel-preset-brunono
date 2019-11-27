@@ -3,6 +3,7 @@ module.exports = function() {
     presets: [
       '@babel/preset-env',
       '@babel/preset-react',
+      'mobx',
     ],
     plugins: [
       ['@babel/plugin-proposal-decorators', { legacy: true }],
