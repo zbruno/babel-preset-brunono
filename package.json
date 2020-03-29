@@ -1,7 +1,7 @@
 {
   "name": "babel-preset-brunono",
   "version": "1.0.10",
-  "description": "Shareable babel preset for Me",
+  "description": "Shareable babel preset for my apps",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -19,53 +19,15 @@
   "homepage": "https://github.com/zbruno/babel-preset-brunono",
   "dependencies": {
     "@babel/core": "^7.7.2",
-    "@babel/runtime": "^7.7.2",
-    "@babel/plugin-proposal-class-properties": "^7.7.0",
-    "@babel/plugin-proposal-decorators": "^7.7.0",
     "@babel/plugin-proposal-export-default-from": "^7.5.2",
     "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
     "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
     "@babel/plugin-proposal-throw-expressions": "^7.2.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-syntax-import-meta": "^7.2.0",
     "@babel/plugin-transform-react-constant-elements": "^7.6.3",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.0",
-    "babel-eslint": "^10.0.3",
-    "babel-loader": "^8.0.6",
+    "@emotion/babel-preset-css-prop": "10.0.9",
+    "babel-plugin-emotion": "^10.0.29",
+    "babel-plugin-mobx-deep-action": "^1.6.1",
     "babel-preset-mobx": "^2.0.0",
-    "babel-plugin-mobx-deep-action": "^1.6.1"
-  },
-  "peerDependencies": {
-    "@babel/core": "^7.7.2",
-    "@babel/runtime": "^7.7.2",
-    "@babel/plugin-proposal-class-properties": "^7.7.0",
-    "@babel/plugin-proposal-decorators": "^7.7.0",
-    "@babel/plugin-proposal-export-default-from": "^7.5.2",
-    "@babel/plugin-proposal-export-namespace-from": "^7.5.2",
-    "@babel/plugin-proposal-nullish-coalescing-operator": "^7.4.4",
-    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
-    "@babel/plugin-proposal-throw-expressions": "^7.2.0",
-    "@babel/plugin-syntax-dynamic-import": "^7.2.0",
-    "@babel/plugin-syntax-import-meta": "^7.2.0",
-    "@babel/plugin-transform-react-constant-elements": "^7.6.3",
-    "@babel/preset-env": "^7.7.1",
-    "@babel/preset-react": "^7.7.0",
-    "babel-eslint": "^10.0.3",
-    "babel-loader": "^8.0.6",
-    "babel-preset-mobx": "^2.0.0",
-    "babel-plugin-mobx-deep-action": "^1.6.1"
-  },
-  "devDependencies": {
-    "eslint": "^6.6.0",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-config-brunono": "^1.0.7",
-    "eslint-plugin-babel": "^5.3.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-jest": "^23.0.2",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.15.1",
-    "eslint-plugin-react-hooks": "^1.7.0"
+    "babel-preset-react-app": "^9.1.2"
   }
 }
